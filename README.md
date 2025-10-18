@@ -57,13 +57,14 @@ All engineered features were appropriately scaled and included in the analysis.
 
 ---
 
-## (Optional) Modeling Snapshot
-Although the lab focuses on preprocessing, I trained baselines to illustrate downstream impact:
+## Modeling Snapshot
+Although the project focuses on preprocessing, I trained baselines to illustrate downstream impact:
 - **Models:** Linear Regression vs. Random Forest Regressor (train/test split)
 - **Result (illustrative on this small sample):**
   - **Random Forest**: lower RMSE (~\$0.86M) — handles interactions/outliers better  
   - **Linear Regression**: higher RMSE (~\$3.1M)  
 These results emphasize **data quality + more rows** are critical before deploying a pricing model.
+<img width="926" height="832" alt="image" src="https://github.com/user-attachments/assets/85f6cfb9-b295-4b6c-87c5-0b07276f55ee" />
 
 ---
 
